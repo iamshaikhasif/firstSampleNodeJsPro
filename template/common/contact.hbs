@@ -1,0 +1,31 @@
+<div class="container-fluid mt-5 about-style" id="contactid">
+    <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+            <h1 class="text-center main-heading">Contact Us</h1>
+            <p class="text-center sub-heading">Contact Us if you have Suggestions or Feedback!</p>
+            <div class="row">
+                <form action="/contact" method="POST">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" placeholder="Enter email address">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="number" class="form-control" id="phone" name="phone" placeholder="Enter phone number">
+                    </div>
+                    <div class="mb-3">
+                        <label for="msg" class="form-label">Message</label>
+                        <input type="text" class="form-control" id="msg" name="message" placeholder="Your Message">
+                    </div>
+                    <button type="submit" class="btn-style btn-primary">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
